@@ -39,8 +39,7 @@ const Hero = () => {
           </h3>
 
           <a
-            download="/resumeCV.pdf"
-            href="ResumeCV.pdf"
+            href="https://hackathon-milestones-nu.vercel.app/"
             title="Click to download"
             className="flex justify-center h-14 items-center mt-10 rounded-full px-6 bg-black text-orange-500 font-semibold transition-all duration-300 ease-in-out transform hover:bg-cyan-400 hover:text-black hover:font-bold hover:scale-105 w-52 font-sans cursor-pointer"
           >
