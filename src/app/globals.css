@@ -1,0 +1,264 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    background-image: url("/bg.png");
+    color: rgb(255, 255, 255, 0.7);
+    font-family: "Poppins", sans-serif;
+  }
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+.custom-tx {
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.custom-design {
+  color: rgb(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+
+.custom-design:hover {
+  color: rgb(255, 255, 255);
+}
+
+.custom-design-1 {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.custom-design-1:hover {
+  color: rgb(255, 136, 0);
+}
+
+.custom-design-2 {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.custom-design-2:hover {
+  color: rgb(255, 230, 0);
+}
+
+.custom-design-3 {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.custom-design-3:hover {
+  color: rgb(0, 255, 255);
+}
+
+.custom-design-4 {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.custom-design-4:hover {
+  color: rgb(21, 255, 0);
+}
+
+.custom-bg-color {
+  backdrop-filter: blur(45px);
+}
+
+.secondary {
+  padding: 25px;
+  border: 3px solid rgb(255, 255, 255, 0.6);
+  border-radius: 15px;
+}
+
+.secondary:hover {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.custom-border {
+  height: 400px;
+  width: 400px;
+}
+
+.custom-m {
+  margin-left: 9vh;
+  margin-top: 8vh;
+  margin-bottom: 2.5vh;
+}
+
+.custom-m2 {
+  margin-left: 9vh;
+  margin-top: 8vh;
+  margin-bottom: 2.5vh;
+  margin-right: -7vh;
+}
+
+.custom-m3 {
+  margin-top: -9vh;
+  margin-left: 190%;
+  width: 28px;
+  height: 28px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.custom-m3:hover {
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+}
+
+.custom-m4 {
+  margin-top: -9vh;
+  margin-left: 190%;
+  width: 28px;
+  height: 28px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.custom-m4:hover {
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+}
+
+.custom-m5 {
+  margin-top: 2vh;
+  margin-left: 97.5%;
+  width: 28px;
+  height: 28px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.custom-m5:hover {
+  transition: 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.custom-m6 {
+  margin-left: 97.5%;
+  width: 28px;
+  height: 28px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.custom-m6:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+
+.custom-m7 {
+  margin-top: -8vh;
+  margin-left: 97.5%;
+  width: 28px;
+  height: 28px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.custom-m7:hover {
+  transition: 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.custom-m8 {
+  margin-top: 2vh;
+  margin-left: 97.5%;
+  width: 28px;
+  height: 28px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.custom-m8:hover {
+  transition: 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.custom-w {
+  width: 100%;
+}
+
+.custom-w4 {
+  width: 80%;
+}
+
+.custom-w2 {
+  width: 45%;
+  margin-left: 5%;
+}
+
+.custom-shadow {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255), 0 0 13px rgb(255, 255, 255, 0.6);
+}
+
+.custom-w3 {
+  width: 100%;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.custom-w8 {
+  width: 75vh;
+  margin-top: 10vh;
+}
+
+.custom-w7 {
+  width: 110%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
